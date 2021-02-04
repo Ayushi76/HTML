@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Jquery!</title>
+   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+       <!---- <script>
+            $(document).ready(function(){
+              $("button").click(function(){
+                $("p").hide();
+              });
+            });
+            </script>-->
+            <script>
+                $(document).ready(function(){
+                    $('#hide').click(function(){
+                        $('h2').hide();
+                    });
+                $("#p1").mousedown(function(){
+                alert("I am alert box! some message write here!");
+                   });
+                });
+            </script>
+
+</head>
+<body>
+
+<h1 id="h1" style="text-decoration-line: underline; background-color: blueviolet;">Welcome to my first Jqery Page</h1>
+<h2 id="h2" style="background-color: aquamarine;"> About Taj Mahal</h2>
+<p id ="p1" style="background-color: bisque;">The Taj Mahal is an ivory-white marble mausoleum on the southern bank <br>
+    of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 <br>
+    by the Mughal emperor Shah Jahan to house the tomb of his favourite wife, Mumtaz Mahal;<br>
+     it also houses the tomb of Shah Jahan himself.</p>
+
+
+<button id="hide" style="background-color: blue; color: white;"> MouseDown</button>
+
+
+</body>
